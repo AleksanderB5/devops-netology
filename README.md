@@ -24,3 +24,4 @@
 
 - terraform.rc - будут проигнорированы все файлы с именем terraform и с расширением rc
 
+network
