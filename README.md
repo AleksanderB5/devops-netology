@@ -33,29 +33,29 @@
 
 ---
 
-### Решение 1
+## Решение 1
 
 ![Скриншот 1](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/1%20тер.png)
 
-### Решение 2
+## Решение 2
 
-## Решение 2.1
+### Решение 2.1
 
 ![Скриншот 1](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-1%20тер.png)
 
-## Решение 2.2
+### Решение 2.2
 
 ![Скриншот 1](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-2%20тер.png)
 
-## Решение 2.3
+### Решение 2.3
 
 ![Скриншот 1](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-3%20тер.png)
 
-## Решение 2.4
+### Решение 2.4
 
 ![Скриншот 1](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-4%20тер.png)
 
-## Решение 2.5
+### Решение 2.5
 
 ![Скриншот 1](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-5-1%20тер.png)
 ![Скриншот 2](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-5-2%20тер.png)
@@ -65,6 +65,6 @@
 ![Скриншот 6](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-5-6%20тер.png)
 ![Скриншот 7](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-5-7%20тер.png)
 
-## Решение 2.6
+### Решение 2.6
 
 ![Скриншот 1](https://github.com/AleksanderB5/devops-netology/blob/ter/foto/2-6%20тер.png)
