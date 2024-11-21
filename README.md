@@ -105,6 +105,9 @@ https://hub.docker.com/repository/docker/trex10/custom-nginx/general
 ![scrin4](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-4%20док.png)
 ![scrin5](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-5%20док.png)
 ![scrin6](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-6%20док(п).png)
+----
+```При запуске мы указывали что 80 порт нашего контейнера прокидывается на 8080 порт машины, а сейчас мы просто поменяли 80 на 81, не перебросив 81 порт на порт 8080, вот и вся проблема.```
+----
 ![scrin7](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-7%20док.png)
 
 ---
@@ -112,16 +115,28 @@ https://hub.docker.com/repository/docker/trex10/custom-nginx/general
 ## Задача 4
 
 
-- Запустите первый контейнер из образа ***centos*** c любым тегом в фоновом режиме, подключив папку  текущий рабочий каталог ```$(pwd)``` на хостовой машине в ```/data``` контейнера, используя ключ -v.
-- Запустите второй контейнер из образа ***debian*** в фоновом режиме, подключив текущий рабочий каталог ```$(pwd)``` в ```/data``` контейнера. 
-- Подключитесь к первому контейнеру с помощью ```docker exec``` и создайте текстовый файл любого содержания в ```/data```.
-- Добавьте ещё один файл в текущий каталог ```$(pwd)``` на хостовой машине.
-- Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data``` контейнера.
+- Запустите первый контейнер из образа ***centos*** c любым тегом в фоновом режиме, подключив папку  текущий рабочий каталог ```$(pwd)```
+ на хостовой машине в ```/data```
+ контейнера, используя ключ -v.
+- Запустите второй контейнер из образа ***debian*** в фоновом режиме, подключив текущий рабочий каталог ```$(pwd)``` в ```/data```
+ контейнера. 
+- Подключитесь к первому контейнеру с помощью ```docker exec```
+ и создайте текстовый файл любого содержания в ```/data```
+.
+- Добавьте ещё один файл в текущий каталог ```$(pwd)```
+ на хостовой машине.
+- Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data```
+ контейнера.
 
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
 ---
+
+## Решение 4
+
+![scrin1](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/4-1%20док.png)
+![scrin2](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/4-2%20док.png)
 
 ---
 
@@ -173,6 +188,27 @@ services:
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
 
 ---
+
+## Решение 5
+
+![scrin1](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-1%20док.png)
+----
+```По умолчанию путь к файлу Compose: compose.yaml (предпочтительный) или compose.yml. Compose также поддерживает docker-compose.yaml и docker-compose.yml для обеспечения обратной совместимости с более ранними версиями. Если в рабочем каталоге оба файла, Compose предпочитает compose.yaml.```
+----
+![scrin2](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-2%20док.png)
+![scrin3](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-3%20док.png)
+![scrin4](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-4%20док.png)
+![scrin5](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-5%20док.png)
+![scrin6](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-6%20док.png)
+![scrin7](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-7%20док.png)
+![scrin8](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-8%20док.png)
+![scrin9](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-9%20док.png)
+![scrin10](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-10%20док.png)
+![scrin11](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-11%20док.png)
+----
+```Суть предупреждения в том, что найдены контейнеры, которые не описаны в файле. Для их очистки нужно выполнить ту же команду с флагом --remove-orphans.```
+----
+![scrin12](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/5-12%20док.png)
 
 ---
 
