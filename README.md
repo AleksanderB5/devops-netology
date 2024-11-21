@@ -35,9 +35,7 @@ Hey, Netology
 
 ## Решение 1
 
-```
-https://hub.docker.com/repository/docker/trex10/custom-nginx/general
-```
+[https://hub.docker.com/repository/docker/trex10/custom-nginx/general](https://hub.docker.com/repository/docker/trex10/custom-nginx/general)
 
 ![scrin1](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/1-1%20док.png)
 ![scrin2](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/1-2%20док.png)
