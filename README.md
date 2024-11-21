@@ -98,9 +98,11 @@ https://hub.docker.com/repository/docker/trex10/custom-nginx/general
 
 ![scrin1](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-1%20док.png)
 ![scrin2](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-2%20док%20(п).png)
+
 ```Нажимаем ctrl+c и у нас завершается работа контейнера. 
 ctrl+c это стандарный сигнал заврешения процесса, чтобы контейнер работал в фоне,
 нужно установить ключи (-d, -it) и тогда мы просто отключимся от него, а не завершим работу контейнера.```
+
 ![scrin3](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-3%20док.png)
 ![scrin4](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-4%20док.png)
 ![scrin5](https://github.com/AleksanderB5/devops-netology/blob/OrkDoc/foto/3-5%20док.png)
